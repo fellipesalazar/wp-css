@@ -81,6 +81,12 @@ form .input:focus {
     font-size: 16px !important;
     font-weight: 500 !important;
     color: #fff !important;
+    background-color: #0476D3 !important;
+}
+
+.button.button-large:hover {
+    color: #fff !important;
+    background-color: #0a88e6 !important;
 }
 
 .login #nav {
