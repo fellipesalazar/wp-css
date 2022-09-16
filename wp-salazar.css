@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*:not(.dashicons) {
+    font-family: 'Albert Sans', sans-serif !important;
+}
+
+#login {
+    width: 342px !important;
+}
+
+.login h1 a {
+    margin: 0 auto !important;
+}
+
+form {
+    border-radius: 8px !important;
+    border: none !important;
+    box-shadow: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+form label {
+    font-size: 16px !important;
+}
+
+form .input, input[type=password], input[type=text] {
+    padding: 0 16px !important;
+    margin: 0 0 16px 0 !important;
+    min-height: 48px !important;
+    border: 1px solid #D1D8DF !important;
+    color: #242d39 !important;
+}
+
+form .input:hover {
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: #b3b7bb !important;
+}
+
+form .input:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: #0476D3 !important;
+}
+
+.login .button.wp-hide-pw {
+    width: 48px !important;
+    height: 48px !important;
+    min-width: 48px !important;
+    min-height: 48px !important;
+    padding: 0 !important;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+    color: #ACB2B9 !important;
+}
+
+.wp-core-ui .button:hover, .wp-core-ui .button-secondary:hover {
+    color: #5E6772 !important;
+}
+
+.login .button.wp-hide-pw:focus {
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: #5E6772 !important;
+}
+
+.submit {
+    margin-top: 16px !important;
+}
+
+.button.button-large {
+    min-height: 48px !important;
+    float: none !important;
+    display: flex !important;
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+}
+
+.login #nav {
+    margin: 40px 0 0 !important;
+    font-size: 16px !important;
+    text-align: center !important;
+}
+
+
+
